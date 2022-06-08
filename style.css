@@ -1,0 +1,45 @@
+*, *:before, *:after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #6ea285;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.header__title {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: white;
+  margin: 0 auto 0 20px;
+  text-shadow: 1px 2px 6px black;
+}
+
+.slider__container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.slider__container:before {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.slider__image {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
